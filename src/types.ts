@@ -33,7 +33,7 @@ export interface HelmetTags {
 
 export interface HelmetDatum {
   toString(): string;
-  toComponent(): React.Component<any>;
+  toComponent(): React.ReactElement[];
 }
 
 export interface HelmetHTMLBodyDatum {
